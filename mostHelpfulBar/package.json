@@ -1,0 +1,17 @@
+{
+  "name": "mostHelpfulBar",
+  "version": "1.0.0",
+  "description": "A short js function to add a bar on top of image",
+  "main": "index.js",
+  "author": "Konrad Pichalski",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-preset-es2015": "^6.24.1"
+  },
+  "scripts": {
+    "babel": "babel --presets es2015 mostHelpfulBarES6.js -o build/mostHelpfulBar.js"
+  }
+}

@@ -126,7 +126,7 @@
     }
   `;
 
-  let linkStyle = this.document.createElement('link');
+  let linkStyle = document.createElement('link');
   linkStyle.setAttribute('rel', 'stylesheet');
   linkStyle.setAttribute('type', 'text/css');
   linkStyle.setAttribute(
