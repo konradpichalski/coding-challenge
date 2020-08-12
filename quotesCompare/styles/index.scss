@@ -1,0 +1,15 @@
+// variables setup
+
+$primaryColor: #452765;
+$pinkColor: #e51a90;
+$darkColor: #333333;
+$lightGreyColor: #f8f8f8;
+$borderColor: #e6e6e6;
+$shadowColor: #f4f5f9;
+$lightBlueColor: #0275d8;
+
+// breakpoints
+$breakpoint-phone: 600px;
+
+@import 'typography';
+@import 'ui';

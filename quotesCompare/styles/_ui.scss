@@ -1,0 +1,51 @@
+.compare-container {
+  position: relative;
+  width: 100%;
+  max-width: 500px;
+  margin: auto;
+  box-sizing: border-box;
+  border: 1px solid $borderColor;
+  border-bottom: 3px solid $borderColor;
+
+  &--list {
+    margin: 10px;
+    color: $primaryColor;
+
+    .buttons-list {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    @media (min-width: $breakpoint-phone) {
+      margin: 10px 20px;
+    }
+  }
+
+  &--note {
+    margin: 20px;
+
+    @media (min-width: $breakpoint-phone) {
+      margin: 20px 30px;
+    }
+  }
+}
+
+.btn--primary {
+  width: 100%;
+  margin: 8px 0;
+  padding: 20px;
+  background: $lightGreyColor;
+  border: 1px solid $borderColor;
+  border-radius: 4px;
+  box-shadow: 0px 3px 0px 0px rgba($shadowColor, 1);
+  cursor: pointer;
+  color: $primaryColor;
+  text-align: left;
+  font-size: 1.2em;
+  font-weight: 700;
+
+  @media (min-width: $breakpoint-phone) {
+    padding: 20px 30px;
+  }
+}
