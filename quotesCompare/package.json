@@ -1,0 +1,12 @@
+{
+  "name": "quotesCompare",
+  "version": "1.0.0",
+  "description": "A small HTML + CSS build for comparing quotes using SASS",
+  "main": "index.js",
+  "author": "Konrad Pichalski",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "live-server": "^1.2.1"
+  }
+}
